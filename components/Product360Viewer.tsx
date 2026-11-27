@@ -6,7 +6,8 @@ import "./Product360Viewer.css";
 type Props = { images?: string[] | null; name: string };
 
 export default function Product360Viewer({ images = [], name }: Props) {
-  const frames = images.filter(Boolean);
+  
+const frames = (images ?? []).filter(Boolean);
   const [current, setCurrent] = useState(0);
   const lastX = useRef<number | null>(null);
   const movement = useRef(0);
