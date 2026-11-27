@@ -1,0 +1,12 @@
+.variant-manager{padding:24px;color:#eee9df;background:#171614;border:1px solid #39352f}
+.variant-heading span{color:#b9a78a;font-size:10px;letter-spacing:3px}.variant-heading h2{font-size:23px;font-weight:400}
+.variant-form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
+.variant-form label{display:flex;flex-direction:column;gap:7px;color:#b9a78a;font-size:11px}
+.variant-form input{width:100%;min-width:0;padding:12px;color:#fff;background:#25231f;border:1px solid #50493f}
+.variant-form button{padding:12px;align-self:end;color:#171614;background:#c8b18d;border:0;cursor:pointer}
+.variant-table-wrap{overflow-x:auto}.variant-table{width:100%;border-collapse:collapse;white-space:nowrap;font-size:12px}
+.variant-table th,.variant-table td{padding:13px;text-align:left;border-bottom:1px solid #39352f}
+.variant-table th{color:#b9a78a;font-weight:400}.variant-table button{padding:7px 10px;color:#e4b1a9;background:transparent;border:1px solid #74534e;cursor:pointer}
+.variant-error{color:#ff9d90;font-size:13px}
+@media(max-width:700px){.variant-form{grid-template-columns:repeat(2,minmax(0,1fr))}.variant-manager{padding:15px}}
+@media(max-width:420px){.variant-form{grid-template-columns:1fr}}
